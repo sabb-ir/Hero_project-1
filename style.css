@@ -118,7 +118,7 @@ nav{
 }
 
 .user-number{
-    font-size: 80px;
+    font-size: 70px;
     font-weight: bold;
     color: #4E47FF;
     margin: 0;
@@ -132,6 +132,8 @@ nav{
 .users{
     margin: 0 80px;
     padding-bottom: 40px;
+    display: inline-block;
+    justify-content: center;
 }
 
 .card-container{
