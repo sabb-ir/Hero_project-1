@@ -235,4 +235,45 @@ nav{
         font-weight: bold;
     }
 
-    
+    .about{
+        margin-top: 100px;
+        text-align: center;
+        text-wrap: wrap;
+    }
+    .logo2{
+        font-size: 100px;
+        font-weight: 800;
+        color: #4E47FF;
+        margin: 0;
+
+    }
+    .web-desc{
+        max-width: 400px;
+        color: #8987A1;
+        font-size: 16px;
+        margin: 20px auto;
+    }
+    .list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.list li {
+    text-decoration: none;
+  color: #8987A1;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.button:hover{
+    background-color: orange;
+    transform: scale(1.05);
+}
