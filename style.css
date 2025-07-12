@@ -58,7 +58,76 @@ nav{
     min-height: 100vh;
 }
 
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 115px;
+}
 
+.action-pic img
+{
+    width: 400px;
+    height: 325px;
+    margin-right: 160px;
+    border-radius: 48px;
+}
+.action-text{
+    margin-left: 140px;
+}
+.action-title{
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+    margin-bottom: 23px;
+}
+.action-description{
+    font-weight: 400;
+    font-size: 24px;
+    color: #252432;
+    opacity: 50%;
+    margin-bottom: 23px;
+    width: 70%;
+}
 
+.user{
+    margin: 115px auto 0 auto;
+    max-width: 1140px;
+    min-height: 306px;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 25px;
+    text-align: center;
+    padding: 0 103px;
+    
 
+}
+.user-head{
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 38px;
+    text-align: center;
+    color: #252432;
+}
+.user-num{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.user-number{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin: 0;
+}
+.user-description{
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
+.users{
+    margin: 0 80px;
+    padding-bottom: 40px;
+}
 
