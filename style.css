@@ -93,18 +93,18 @@ nav{
 }
 
 .user {
-    margin: 150px auto;
+    margin: 100px auto;
+    width: 90%;
     max-width: 1140px;
-    min-height: 306px;
     background-color: rgba(78, 71, 255, 0.1);
     border-radius: 25px;
     text-align: center;
-    padding: 50px 80px 40px;
+    padding: 50px 40px 50px;
 }
 
 .user-head {
     font-weight: bold;
-    font-size: 38px;
+    font-size: 32px;
     color: #252432;
     margin-bottom: 40px;
 }
@@ -112,30 +112,28 @@ nav{
 .user-num {
     display: flex;
     justify-content: space-between;
+    gap: 30px;
     flex-wrap: wrap;
-    gap: 40px;
-}
-
-
-
-.user-number {
-    font-size: 80px;
-    font-weight: bold;
-    color: #4E47FF;
-    margin: 0;
-}
-
-.user-description {
-    font-size: 20px;
-    font-weight: 400;
-    color: rgba(0, 0, 0, 0.5);
-    margin: 0;
 }
 
 .users {
     width: 30%;
     min-width: 200px;
     text-align: center;
+}
+
+.user-number {
+    font-size: 48px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin: 0;
+}
+
+.user-description {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0;
 }
 
 .card-container{
